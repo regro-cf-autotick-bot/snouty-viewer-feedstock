@@ -1,5 +1,5 @@
 {% set name = "snouty-viewer" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7aba7030d7afe52e5c26ffb3abfaa8842c1b915f3511375962e0c4345d46727a
+  sha256: 11d8007de6ae4b8462842fcdf0890545ad2646ded18b4573cb0d3846fad5b1a8
 
 build:
   noarch: python
